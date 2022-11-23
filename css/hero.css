@@ -1,0 +1,21 @@
+#hero {
+  position: relative;
+  background-image: linear-gradient(to right, #1ea6ec, #2c92fb);
+  color: #fff;
+  padding-top: 6%;
+}
+.title {
+  font-weight: bolder;
+  margin-top: 80px;
+}
+.description {
+}
+.ban-img {
+  position: relative;
+  z-index: 1000;
+}
+.wave {
+  position: absolute;
+  bottom: -10px;
+  left: 0;
+}

@@ -1,0 +1,21 @@
+#pricing {
+  padding: 80px 0;
+  background: #f8f9fa;
+}
+#pricing h4 {
+  margin-top: 15%;
+}
+#pricing ul li {
+  margin-top: 10px;
+  list-style: none;
+}
+#pricing .btn {
+  border-radius: 15px;
+  margin: 0 20px;
+}
+
+#pricing ul li:hover {
+  transition: 0.2s;
+  transform: scale(1.02);
+  text-shadow: 2px 4px 8px #3333;
+}
