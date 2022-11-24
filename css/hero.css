@@ -1,6 +1,6 @@
 #hero {
   position: relative;
-  background-image: linear-gradient(to right, #1ea6ec, #2c92fb);
+  background-image: linear-gradient(to right, #285430, #5f8d4e);
   color: #fff;
   padding-top: 6%;
 }
@@ -9,6 +9,16 @@
   margin-top: 80px;
 }
 .description {
+}
+.visit {
+  position: absolute;
+  padding: 0 30px;
+  border-radius: 10px;
+  z-index: 1001;
+}
+.visit:hover {
+  background-color: #0014ef;
+  cursor: pointer;
 }
 .ban-img {
   position: relative;

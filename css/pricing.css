@@ -1,6 +1,17 @@
 #pricing {
   padding: 80px 0;
-  background: #f8f9fa;
+  background: #eff5f5;
+}
+
+#pricing .fade-in {
+  opacity: 0;
+  transform: translateY(0, -40px);
+  transition: 0.5s;
+}
+/* penambahan untuk jquery */
+#pricing .fade-in.munculKiri {
+  opacity: 1;
+  transform: translateY(0, 0);
 }
 #pricing h4 {
   margin-top: 15%;
